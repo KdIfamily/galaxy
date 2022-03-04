@@ -50,21 +50,20 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-**🅷🅴🅻🅻🅾️ {}, ᴍʏ ɴᴀᴍᴇ ɪs *{}*!\n 
-ᴘᴇᴏᴘʟᴇ's sᴏᴍᴇᴛɪᴍᴇ ғɪɴᴅ *ʜᴀʀᴅ* ᴛᴏ ᴍᴀɴᴀɢᴇ ᴛʜᴇɪʀ ɢʀᴏᴜᴘs, *sᴏ ɪ ᴀᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ*.\n
-[ᴍʏ Mⱥຮteℝ🔥](https://t.me/thanimaibots/17).
- 
-ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜ /help.
+ʜɪ ɪ'ᴍ 🅶🅾🅳 🅾🅵 🅿🅸🅺🅰🅲🅷🆄
+ɪ ᴀᴍ ᴩᴏᴡᴇʀꜰᴜʟ ʙᴏᴛ
+ɪ ᴀᴍ ʜᴇʟᴩ yᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ yᴏᴜʀ ɢʀᴏᴜᴩꜱ ʜɪᴛ /help ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ
+[M̷y̷ M̷a̷s̷t̷e̷r̷🔥](https://t.me/ELECTRO_444).
 """
 
 HELP_STRINGS = """
-ʜᴇʟʟᴏ! ᴍʏ ɴᴀᴍᴇ *{}*.
+ʜᴇʟʟᴏ! ᴍʏ ɴᴀᴍᴇ *🅶🅾🅳 🅾🅵 🅿🅸🅺🅰🅲🅷🆄*.
 *ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ*:
  ➥ /start: sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
  ➥ /help <ᴍᴏᴅᴜʟᴇ ɴᴀᴍᴇ>: ᴘᴍ's ʏᴏᴜ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴛʜᴀᴛ ᴍᴏᴅᴜʟᴇ.
 {}
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ᴇɪᴛʜᴇʀ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !.\n")
-TECHNO_IMG = "https://telegra.ph/file/420d2e124afe2384f32e1.jpg"
+TECHNO_IMG = "https://telegra.ph/file/362fd5fa7c445f77627e1.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -78,7 +77,7 @@ USER_SETTINGS = {}
 
 
 SOURCE_STRING = """
-[here](hhttps://github.com/KdIfamily/galaxy)
+[.](Pravite)
 """
 
 
@@ -163,7 +162,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="ADD ME 🤖TO YOUR GROUP",url="t.me/{}?startgroup=true".format(bot.username))
+                            text="ADD ME 🤖TO YOUR GROUP",url="t.me/God_Of_Pikachu_Bot?startgroup=true".format(bot.username))
                     ],
                      [
                          InlineKeyboardButton(
@@ -171,17 +170,17 @@ def start(bot: Bot, update: Update, args: List[str]):
                             callback_data="help_back".format(bot.username)),
                          InlineKeyboardButton(
                              text="UPDATES 🔀",
-                             url="https://t.me/thanimaibots")
+                             url="https://t.me/eoupdateff")
                      ],
                      [
                          InlineKeyboardButton(
                              text="💻 MY CREATOR 💻",
-                             url="https://t.me/thanimaibots/17")
-                     ]]))
+                             url="https://t.me/ELECTRO_444")
+                   ]]))
 
     else:
-        update.effective_message.reply_text("╔═════════════════╗\n       「 🔥 𝙂𝘼𝙇𝘼𝙓𝙔 𝘽𝙊𝙏 🔥 」\n╚═════════════════╝",reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ ʜᴇʟᴘ 🖤",url="t.me/Galaxysbot?start=help".format(bot.username))]]))
+        update.effective_message.reply_text("╔═════════════════╗\n       「 🔥 🅶🅾🅳 🅾🅵 🅿🅸🅺🅰🅲🅷🆄 🔥 」\n╚═════════════════╝",reply_markup=InlineKeyboardMarkup(
+                                                [[InlineKeyboardButton(text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ ʜᴇʟᴘ 🖤",url="t.me/God_Of_Pikachu_Bot?start=help".format(bot.username))]]))
 
 
 def send_start(bot, update):
